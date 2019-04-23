@@ -1,0 +1,96 @@
+* {
+    font-family: 'Tahoma';
+}
+
+/* HEADER - LOGO */
+.logo {
+    background-image: url(../img/bg_head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0;
+}
+
+.logo img {
+    display: block;
+    width: 11rem;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.vardas {
+    font-size: 3rem;
+    color: #505050;
+    letter-spacing: 2px;
+}
+
+.email {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+/* HEADER - NAV */
+header nav {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+header nav .nav-link {
+    margin: 15px 10px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #545357;
+}
+
+
+/* MAIN */
+.intro-text {
+    font-size: 1.5rem;
+    word-spacing: 1px;
+}
+
+#services,
+#recent-works,
+#clients {
+    font-size: 2.5rem;
+    color: #505050;
+    text-transform: uppercase;
+}
+
+article .article-text {
+    text-indent: 25px;
+    justify-content: center;
+}
+
+article a {
+    color: #505050;
+}
+
+.my-pics a {
+    color: deeppink;
+}
+
+
+/* FOOTER */
+.footeris-1 {
+    background-color: #232323;
+    color: #B9B9B9;
+    font-size: .8rem;
+}
+
+.footeris-1 .card-title {
+    text-transform: uppercase;
+}
+
+.footeris-1 .fab {
+    font-size: 2rem;
+}
+
+.footeris-1 .fab:nth-child(3) {
+    margin: 0 10px;
+}
+
+
+.footeris-2 {
+    background-color: #111111;
+    color: #505050;
+    padding: 10px 0;
+}
